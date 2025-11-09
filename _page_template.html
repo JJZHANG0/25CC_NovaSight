@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>页面标题 - NovaSight</title>
+    <meta name="description" content="页面描述">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation and Loading Screen will be inserted by components.js -->
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="particles" id="particles"></div>
+        <div class="page-header-content">
+            <h1 class="page-title" data-aos="fade-up" data-i18n="页面.title">页面标题</h1>
+            <p class="page-subtitle" data-aos="fade-up" data-aos-delay="200" data-i18n="页面.description">
+                页面副标题描述
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">SECTION TAG</span>
+                <h2 class="section-title" data-i18n="页面.section_title">区域标题</h2>
+                <p class="section-description" data-i18n="页面.section_desc">区域描述</p>
+            </div>
+            
+            <!-- 在这里添加页面特定内容 -->
+            <div data-aos="fade-up">
+                <p>页面内容...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer will be inserted by components.js -->
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

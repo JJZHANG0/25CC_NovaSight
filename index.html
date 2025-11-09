@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaSight - 让科技成为新的眼睛</title>
+    <meta name="description" content="NovaSight 是全球首款具有实时语音交互功能的地图导航智能导盲杖，赋予视障者安全与尊严的自由出行。">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation and Loading Screen will be inserted by components.js -->
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down">
+                <i class="fas fa-award"></i>
+                <span data-i18n="home.badge">全球首创智能导盲系统</span>
+            </div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+                <span class="gradient-text" data-i18n="home.title">NovaSight</span>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="400" data-i18n="home.subtitle">
+                让科技成为新的眼睛
+            </p>
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="600" data-i18n="home.description">
+                全球首款具有实时语音交互功能的地图导航智能导盲杖<br>
+                赋予视障者安全与尊严的自由出行
+            </p>
+            <div class="hero-buttons" data-aos="fade-up" data-aos-delay="800">
+                <a href="innovation.html" class="btn btn-primary">
+                    <span data-i18n="home.btn_learn">了解产品</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="contact.html" class="btn btn-secondary">
+                    <span data-i18n="home.btn_contact">联系我们</span>
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="1000">
+                <div class="stat-item">
+                    <div class="stat-number" data-i18n="home.stat1_num">2.8亿</div>
+                    <div class="stat-label" data-i18n="home.stat1_label">全球视障人群</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-i18n="home.stat2_num">≥95%</div>
+                    <div class="stat-label" data-i18n="home.stat2_label">导航精度</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-i18n="home.stat3_num">4米</div>
+                    <div class="stat-label" data-i18n="home.stat3_label">障碍识别距离</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-i18n="home.stat4_num">30%+</div>
+                    <div class="stat-label" data-i18n="home.stat4_label">碰撞事件减少</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="1200">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p data-i18n="home.scroll_text">向下滚动探索</p>
+        </div>
+    </section>
+
+    <!-- Quick Links Section -->
+    <section class="section quick-links-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-i18n="home.quick_section_tag">EXPLORE</span>
+                <h2 class="section-title" data-i18n="home.quick_section_title">探索 NovaSight</h2>
+                <p class="section-description" data-i18n="home.quick_section_desc">了解我们的创新产品与愿景</p>
+            </div>
+            
+            <div class="quick-links-grid">
+                <a href="about.html" class="quick-link-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <h3 data-i18n="nav.about">关于我们</h3>
+                    <p data-i18n="home.quick_about_desc">用科技点亮无障碍出行的未来</p>
+                    <span class="quick-link-arrow"><i class="fas fa-arrow-right"></i></span>
+                </a>
+                
+                <a href="innovation.html" class="quick-link-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 data-i18n="nav.innovation">创新产品</h3>
+                    <p data-i18n="home.quick_innovation_desc">AI驱动的智能导盲系统</p>
+                    <span class="quick-link-arrow"><i class="fas fa-arrow-right"></i></span>
+                </a>
+                
+                <a href="team.html" class="quick-link-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 data-i18n="nav.team">核心团队</h3>
+                    <p data-i18n="home.quick_team_desc">多学科协作驱动创新</p>
+                    <span class="quick-link-arrow"><i class="fas fa-arrow-right"></i></span>
+                </a>
+                
+                <a href="impact.html" class="quick-link-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 data-i18n="nav.impact">社会影响</h3>
+                    <p data-i18n="home.quick_impact_desc">创造包容与平等的社会</p>
+                    <span class="quick-link-arrow"><i class="fas fa-arrow-right"></i></span>
+                </a>
+                
+                <a href="gallery.html" class="quick-link-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-images"></i>
+                    </div>
+                    <h3 data-i18n="nav.gallery">模型展示</h3>
+                    <p data-i18n="home.quick_gallery_desc">从概念到原型的技术落地</p>
+                    <span class="quick-link-arrow"><i class="fas fa-arrow-right"></i></span>
+                </a>
+                
+                <a href="contact.html" class="quick-link-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="quick-link-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 data-i18n="nav.contact">联系我们</h3>
+                    <p data-i18n="home.quick_contact_desc">携手创造无障碍未来</p>
+                    <span class="quick-link-arrow"><i class="fas fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer will be inserted by components.js -->
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

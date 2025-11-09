@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我们 - NovaSight</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="page-header">
+        <div class="particles" id="particles"></div>
+        <div class="page-header-content">
+            <h1 class="page-title" data-aos="fade-up" data-i18n="contact.title">联系我们</h1>
+            <p class="page-subtitle" data-aos="fade-up" data-aos-delay="200" data-i18n="contact.description">
+                期待与您携手创造无障碍未来
+            </p>
+        </div>
+    </section>
+
+    <section class="section contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.info_email_title">邮箱</h4>
+                            <p data-i18n="contact.info_email1">contact@novasight.com</p>
+                            <p data-i18n="contact.info_email2">support@novasight.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.info_phone_title">电话</h4>
+                            <p data-i18n="contact.info_phone">+86 400-XXX-XXXX</p>
+                            <p class="contact-note" data-i18n="contact.info_phone_note">工作日 9:00-18:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.info_address_title">地址</h4>
+                            <p data-i18n="contact.info_address">中国·上海</p>
+                            <p class="contact-note" data-i18n="contact.info_address_note">具体地址请邮件咨询</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name"><span data-i18n="contact.form_name">姓名</span> *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email"><span data-i18n="contact.form_email">邮箱</span> *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" data-i18n="contact.form_phone">电话</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject"><span data-i18n="contact.form_subject">主题</span> *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" data-i18n="contact.form_subject_placeholder">请选择</option>
+                                <option value="product" data-i18n="contact.form_subject1">产品咨询</option>
+                                <option value="cooperation" data-i18n="contact.form_subject2">合作洽谈</option>
+                                <option value="media" data-i18n="contact.form_subject3">媒体采访</option>
+                                <option value="support" data-i18n="contact.form_subject4">技术支持</option>
+                                <option value="other" data-i18n="contact.form_subject5">其他</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message"><span data-i18n="contact.form_message">留言</span> *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span data-i18n="contact.form_submit">发送消息</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/lang.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
